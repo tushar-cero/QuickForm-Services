@@ -1,2 +1,3 @@
-import fastapi
-print ('Hello ')
+from fastapi import FastAPI
+
+app = FastAPI()
